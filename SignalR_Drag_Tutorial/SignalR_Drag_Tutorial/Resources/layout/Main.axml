@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E2E2E2">
+    <View
+        android:id="@+id/draggableView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#0000FF"
+        android:layout_gravity="center" />
+</FrameLayout>
